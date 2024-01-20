@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Любимая помощница</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+
+<h1>Любимая помощница</h1>
+
+<p>Наша компания освободит Ваше время и избавит от домашних хлопот.</p>
+<a>Заполните заявку ниже и в ближайшее время наш оператор свяжется с Вами.</a>
+
+<br>
+
+<a>Со стоимостью услуг Вы можете ознакомится по ссылке</a>
+<a href="index2.html">Стоимость услуг</a>
+
+<br>
+<br>
+
+<form>
+
+    <fieldset>
+
+        <legend><b>Контактная информация</b></legend>
+        <br>
+
+        <label>Ваше имя <input type="text" required></label>
+        <br>
+
+        <br>
+        <label>Номер телефона <input type="phone" required></label>
+        <br>
+
+        <br>
+        <legend><b>Выбрать услугу</b></legend>
+        <br>
+        <label><input type="checkbox">Уборка</label>
+        <br>
+        <label><input type="checkbox">Стирка</label>
+        <br>
+        <label><input type="checkbox">Глажка белья</label>
+        <br>
+        <label><input type="checkbox">Мытье окон</label>
+        <br>
+        <label><input type="checkbox">Приготовление еды</label>
+        <br>
+        <br>
+
+        <legend><b>Оплата</b></legend>
+        <br>
+
+        <input type="radio" id="На сайте" name="myradio" value="На сайте"/>
+        <label for="На сайте">На сайте</label>
+
+        <br>
+
+        <input type="radio" id="Картой" name="myradio" value="Картой"/>
+        <label for="Картой">Картой</label>
+
+        <br>
+
+        <input type="radio" id="Наличными" name="myradio" value="Наличными" />
+        <label for="Наличными">Наличными</label>
+
+        <br>
+        <form action="comment">
+            <p><b>Комментарий</b></p>
+            <p><textarea name="comment"></textarea></p>
+        </form>
+
+        <legend><b>Местоположение</b></legend>
+        <br>
+        <select>
+            <option>В черте города</option>
+            <option>За городом</option>
+        </select>
+
+        <br>
+        <br>
+
+        <legend><b>Дополнительные услуги</b></legend>
+
+        <br>
+
+        <form>
+            <select size="4">
+                <option disabled>Выберите дополнительные услуги</option>
+                <option value="Няня">Няня</option>
+                <option value="Уборка снега">Уборка снега</option>
+                <option value="Стрижка газона">Стрижка газона</option>
+                <option value="Сантехнические услуги">Сантехнические услуги</option>
+            </select>
+        </form>
+
+    </fieldset>
+</form>
+<p><input type="submit" class="button" value="Отправить заявку"></p>
+
+</body>
+</html>
