@@ -1,14 +1,41 @@
 @charset "windows-1251";
 /* CSS Document */
 
-h1{color:blue}
+h1{
+    color:blue;
+    text-align:  center;
+}
 
-a:link{color:blue}
+a:link{
+    color:blue
+}
 
-b{color:blue}
+b{
+    color:blue
+}
 
-.button{color:blue}
+.button{
+    color:blue
+}
 
- h1{text-align:  center;}
+hr{
+    background-color: red;
+ }
 
- hr{background-color: red;}
+ table{
+    border: 1px solid;
+ }
+
+ th{
+    border: 1px
+    solid;
+    background: pink;
+    align:  center;
+ }
+
+ td{
+    border: 1px
+    solid;
+    text-align:  center;
+ }
+

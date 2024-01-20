@@ -22,21 +22,22 @@
 <br>
 <br>
 
-<form>
-
+<form action="index1.html" method="post" name="submission form">
     <fieldset>
 
         <legend><b>Контактная информация</b></legend>
         <br>
 
         <label>Ваше имя <input type="text" required></label>
-        <br>
 
         <br>
+        <br>
+
         <label>Номер телефона <input type="phone" required></label>
-        <br>
 
         <br>
+        <br>
+
         <legend><b>Выбрать услугу</b></legend>
         <br>
         <label><input type="checkbox">Уборка</label>
@@ -68,10 +69,10 @@
         <label for="Наличными">Наличными</label>
 
         <br>
-        <form action="comment">
+
             <p><b>Комментарий</b></p>
             <p><textarea name="comment"></textarea></p>
-        </form>
+
 
         <legend><b>Местоположение</b></legend>
         <br>
@@ -86,8 +87,6 @@
         <legend><b>Дополнительные услуги</b></legend>
 
         <br>
-
-        <form>
             <select size="4">
                 <option disabled>Выберите дополнительные услуги</option>
                 <option value="Няня">Няня</option>
@@ -95,11 +94,9 @@
                 <option value="Стрижка газона">Стрижка газона</option>
                 <option value="Сантехнические услуги">Сантехнические услуги</option>
             </select>
-        </form>
 
+        <p><input type="submit" class="button" value="Отправить заявку"></p>
     </fieldset>
 </form>
-<p><input type="submit" class="button" value="Отправить заявку"></p>
-
 </body>
 </html>
