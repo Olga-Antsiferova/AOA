@@ -19,11 +19,12 @@ b{
 }
 
 hr{
-    background-color: red;
+    color: red;
  }
 
  table{
-    border: 1px solid;
+    border: 1px
+    solid;
  }
 
  th{
@@ -38,4 +39,8 @@ hr{
     solid;
     text-align:  center;
  }
+
+div{
+text-align: center;
+}
 

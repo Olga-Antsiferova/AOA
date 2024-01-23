@@ -22,45 +22,54 @@
 <br>
 <br>
 
-<form action="index1.html" method="post" name="submission form">
+<form action="index1.html" method="post" name="application">
     <fieldset>
 
         <legend><b>Контактная информация</b></legend>
         <br>
 
-        <label>Ваше имя <input type="text" required></label>
+        <label>Ваше имя
+            <input type="text" required name="yourname">
+        </label>
 
         <br>
         <br>
 
-        <label>Номер телефона <input type="phone" required></label>
+        <label>Номер телефона
+            <input type="number" required name="yourphone">
+        </label>
 
         <br>
         <br>
 
         <legend><b>Выбрать услугу</b></legend>
         <br>
-        <label><input type="checkbox">Уборка</label>
+        <label>
+            <input type="checkbox" name="variant1" value="Уборка">Уборка</label>
         <br>
-        <label><input type="checkbox">Стирка</label>
+        <label>
+            <input type="checkbox" name="variant2" value="стирка">Стирка</label>
         <br>
-        <label><input type="checkbox">Глажка белья</label>
+        <label>
+            <input type="checkbox" name="variant3" value="Глажка белья">Глажка белья</label>
         <br>
-        <label><input type="checkbox">Мытье окон</label>
+        <label>
+            <input type="checkbox" name="variant4" value="Мытье окон">Мытье окон</label>
         <br>
-        <label><input type="checkbox">Приготовление еды</label>
+        <label>
+            <input type="checkbox" name="variant5" value="Приготовление еды">Приготовление еды</label>
         <br>
         <br>
 
         <legend><b>Оплата</b></legend>
         <br>
 
-        <input type="radio" id="На сайте" name="myradio" value="На сайте"/>
+        <input type="radio" id="На сайте" name="myradio" value="На сайте" />
         <label for="На сайте">На сайте</label>
 
         <br>
 
-        <input type="radio" id="Картой" name="myradio" value="Картой"/>
+        <input type="radio" id="Картой" name="myradio" value="Картой" />
         <label for="Картой">Картой</label>
 
         <br>
@@ -70,16 +79,22 @@
 
         <br>
 
-            <p><b>Комментарий</b></p>
-            <p><textarea name="comment"></textarea></p>
-
+        <p><b>Комментарий</b></p>
+        <p>
+            <label>
+                <textarea name="comment"></textarea>
+            </label>
+        </p>
 
         <legend><b>Местоположение</b></legend>
         <br>
-        <select>
-            <option>В черте города</option>
-            <option>За городом</option>
-        </select>
+
+        <label>
+            <select>
+                <option name="city">В черте города</option>
+                <option name="outsidecity">За городом</option>
+            </select>
+        </label>
 
         <br>
         <br>
@@ -87,16 +102,21 @@
         <legend><b>Дополнительные услуги</b></legend>
 
         <br>
-            <select size="4">
+        <label>
+            <select name="option" size="4">
                 <option disabled>Выберите дополнительные услуги</option>
                 <option value="Няня">Няня</option>
                 <option value="Уборка снега">Уборка снега</option>
                 <option value="Стрижка газона">Стрижка газона</option>
                 <option value="Сантехнические услуги">Сантехнические услуги</option>
             </select>
+        </label>
 
-        <p><input type="submit" class="button" value="Отправить заявку"></p>
+        <p>
+            <input type="submit" class="button" value="Отправить заявку">
+        </p>
     </fieldset>
 </form>
 </body>
+
 </html>
